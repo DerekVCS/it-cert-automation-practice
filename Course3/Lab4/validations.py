@@ -24,7 +24,6 @@ def validate_user(username, minlen):
     # Username can't begin with a period _
     if username[0] == '_':
         return False
-
     return True
 
 
